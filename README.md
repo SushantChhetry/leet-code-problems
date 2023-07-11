@@ -38,13 +38,18 @@ You can solve this problem using <strong> Sliding Window </strong>.
 ## 🔵 MEDIUM
 
 ### Remove Duplicates from Sorted Array II ☑
-(07/06/2023) <br/>
-You can solve this problem using <strong> Sliding Window </strong>.
- - Initialize two pointers, one at the beginning and the other next to it and a counter
-- Iterate through the array with the first pointer, checking if the element at right index is equal or less than the left index.
-  - If it is, increment the second pointer.
-  - If it's not, replace the left + 1 index with the right index. Increment the cointer
-- Keep doing this until the right pointer reaches the array length
+(07/10/2023) <br/>
+You can solve this problem using <strong> two pointers </strong>.
+ - Initialize two pointers, both starting at the second element i.e. index 1
+   - first pointer keep tracks of non-duplicate elements
+   - second pointer keep tracks of duplicate elements 
+- Iterate through the array with starting from the second element to the array's last element.
+  - Check if the previous elements is equal the the current index's element
+    - If it is then move the duplicate check pointer
+    - If it is not then move the duplicate pointer element to 1 to indicate that this is a non duplicate element
+  - Check if duplicate element pointer is less than or equal to 2
+    - If it is then swap the current pointer element with the iterated element
+- Return the pointer that is keeping track of the duplicate elements   
 
 
 
