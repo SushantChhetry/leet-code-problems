@@ -33,3 +33,18 @@ You can solve this problem using <strong> Sliding Window </strong>.
   - If it is, increment the second pointer.
   - If it's not, replace the left + 1 index with the right index. Increment the cointer
 - Keep doing this until the right pointer reaches the array length
+
+
+## 🔵 MEDIUM
+
+### Remove Duplicates from Sorted Array II ☑
+(07/06/2023) <br/>
+You can solve this problem using <strong> Sliding Window </strong>.
+ - Initialize two pointers, one at the beginning and the other next to it and a counter
+- Iterate through the array with the first pointer, checking if the element at right index is equal or less than the left index.
+  - If it is, increment the second pointer.
+  - If it's not, replace the left + 1 index with the right index. Increment the cointer
+- Keep doing this until the right pointer reaches the array length
+
+
+
