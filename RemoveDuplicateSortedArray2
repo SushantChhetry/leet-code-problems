@@ -1,0 +1,25 @@
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    let count = 1; //keeps track of non-duplicates
+    let duplicateCount = 1; //keeps track of duplicate ocurrance
+
+    for(let i = 1; i < nums.length ; i++){
+
+        if(nums[i] === nums[i-1]){
+            duplicateCount++;
+        }
+        else{
+            duplicateCount = 1;
+        }
+
+        if(duplicateCount <=2){
+            nums[count] = nums[i];
+            count++;
+        }
+    }
+
+    return count;
+};
