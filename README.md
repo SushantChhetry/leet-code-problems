@@ -35,6 +35,14 @@ You can solve this problem using <strong> Sliding Window </strong>.
 - Keep doing this until the right pointer reaches the array length
 
 
+### 169. Majority Element ✅ 
+(07/11/2023) <br/>
+You can solve this problem using <strong> Hashmap </strong>.
+- Check if array length is less than or equal to 2, return first element
+- Iterate through the array and update the hasmap and its count.
+- Iterate through the hashmap and find the max occurance of the key, store the key and return it 
+
+
 ## 🔵 MEDIUM
 
 ### Remove Duplicates from Sorted Array II ☑
