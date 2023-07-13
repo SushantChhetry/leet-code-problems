@@ -57,7 +57,23 @@ You can solve this problem using <strong> two pointers </strong>.
     - If it is not then move the duplicate pointer element to 1 to indicate that this is a non duplicate element
   - Check if duplicate element pointer is less than or equal to 2
     - If it is then swap the current pointer element with the iterated element
-- Return the pointer that is keeping track of the duplicate elements   
+- Return the pointer that is keeping track of the duplicate elements
+
+
+### 189. Rotate Array ☑
+(07/12/2023) <br/>
+You can solve this problem using <strong> two pointers </strong>.
+- Determine the number of rotations: Decide how many times you want to rotate the array and store it in a variable, let's say "k".
+
+- Handle special cases: Check if "k" is greater than the length of the array or if "k" is a negative number. In such cases, you can adjust the value of "k" to bring it within the valid range. For example, if "k" is greater than the array length, you can take the modulus of "k" with the array length to get the effective number of rotations.
+
+- Reverse the entire array: Start by reversing the entire array. You can swap the elements from the start and end of the array, gradually moving towards the middle until you reach the middle element. This step ensures that the elements that need to be at the front after rotation will end up at the back, and vice versa.
+
+- Reverse the first "k" elements: Reverse the first "k" elements of the array. This can be done by swapping the elements from the start and end, moving towards the middle until you reach the "k/2" element. This step brings the desired "k" elements to the front of the array.
+
+- Reverse the remaining elements: Reverse the remaining elements of the array, excluding the first "k" elements. This can be done by swapping the elements from the start and end, gradually moving towards the middle until you reach the middle of the remaining elements. This step ensures that the remaining elements are brought back to their original order.
+
+- Print or return the rotated array: Finally, you can print the rotated array or return it from the function, depending on your requirements.
 
 
 
