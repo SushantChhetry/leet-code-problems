@@ -40,7 +40,19 @@ You can solve this problem using <strong> Sliding Window </strong>.
 You can solve this problem using <strong> Hashmap </strong>.
 - Check if array length is less than or equal to 2, return first element
 - Iterate through the array and update the hasmap and its count.
-- Iterate through the hashmap and find the max occurance of the key, store the key and return it 
+- Iterate through the hashmap and find the max occurance of the key, store the key and return it
+
+### 169. Best Time to Buy and Sell Stock✅ 
+(07/13/2023) <br/>
+ ### Naive
+- Initialize variables: Start by initializing two variables, minPrice and maxProfit, to track the minimum price and maximum profit encountered so far. Set minPrice to infinity and maxProfit to zero.
+
+- Iterate through the prices: Iterate through the given array of prices, and for each price:
+
+- Update minPrice: If the current price is smaller than minPrice, update minPrice to the current price.
+- Calculate potential profit: Calculate the potential profit by subtracting minPrice from the current price.
+- Update maxProfit: If the potential profit is greater than maxProfit, update maxProfit to the potential profit.
+- Return the maximum profit: After iterating through all the prices, return the value of maxProfit.
 
 
 ## 🔵 MEDIUM
