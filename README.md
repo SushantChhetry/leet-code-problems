@@ -63,6 +63,17 @@ You can solve this problem using <strong> Hashmap </strong>.
    - If they are equal update the pointer values
  - Return true if the loop ends
 
+### 392. Is Subsequence✅ 
+(07/17/2023) <br/>
+<strong> two pointer </stromg>
+- Initialize two varibles, p1 for s and p2 for t
+- loop while we check all char in t
+    - if t and s have the char at p2 and p1 respectively, increment p1 and p2
+    - if s char at p1 is not in t char at p2, the increment p1
+- Check if p1++ is lenght of s
+    - if it is not return false
+    - else return true
+
 ## 🔵 MEDIUM
 
 ### Remove Duplicates from Sorted Array II ☑
