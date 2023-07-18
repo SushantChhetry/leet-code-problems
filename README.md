@@ -54,6 +54,14 @@ You can solve this problem using <strong> Hashmap </strong>.
 - Update maxProfit: If the potential profit is greater than maxProfit, update maxProfit to the potential profit.
 - Return the maximum profit: After iterating through all the prices, return the value of maxProfit.
 
+### 125. Valid Palindrome✅ 
+(07/17/2023) <br/>
+
+- Use replace and tolowercase methods to setup a new string we will use <strong> two pointers on </strong>
+- Initialize variables: left = 0 and right = end of this new string.
+- Iterate through the char: if the char at left and right are not equal return false
+   - If they are equal update the pointer values
+ - Return true if the loop ends
 
 ## 🔵 MEDIUM
 
