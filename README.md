@@ -106,5 +106,15 @@ You can solve this problem using <strong> two pointers </strong>.
 
 - Print or return the rotated array: Finally, you can print the rotated array or return it from the function, depending on your requirements.
 
+### 189. Best Time to Buy and Sell Stocks II ☑
+(07/19/2023) <br/>
+Instead of trying to find the exact buying and selling points, <strong> focus on identifying the increasing sequences of prices </strong>. The maximum profit can be obtained by simply buying at the beginning of each increasing sequence and selling at the end of it
+
+- initialize the maxProfit variable
+- loop through the array
+   - if the price is increasing compared to previous day
+     - then update the maxProfit by adding the difference between the present day and previous day
+ - return the final profit
+
 
 
