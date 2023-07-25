@@ -73,6 +73,18 @@ You can solve this problem using <strong> Hashmap </strong>.
 - Check if p1++ is lenght of s
     - if it is not return false
     - else return true
+ 
+### 383. Ransom Note ✅ 
+(07/24/2023) <br/>
+
+- Loop through the char of magazine
+  - Use a map to store the char of magazine and it is count
+- Loop through the ransomeNote
+  - check if the map contains the char of ransomeNote
+    - if not return false
+    - if it does decrement the map value and check if the value is now less than zero
+      - if it is return false
+- Once loop ends return true  
 
 ## 🔵 MEDIUM
 
