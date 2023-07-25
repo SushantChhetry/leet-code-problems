@@ -84,7 +84,20 @@ You can solve this problem using <strong> Hashmap </strong>.
     - if not return false
     - if it does decrement the map value and check if the value is now less than zero
       - if it is return false
-- Once loop ends return true  
+- Once loop ends return true
+
+### 205. Isomorphic Strings ✅ ❗
+(07/24/2023) <br/>
+
+- Create a new map
+- Loop through the char of S
+  - Create two variables to store the char of s and t at that index
+  - Check if the map has the key of char of s
+    - if it does and its value is not equal to the char t return false
+  - else check if we have a value in the map that is equal to char T
+    - this means that we already have the char mapped to something else, so return false
+    - else add the char s key to char t value
+- return true     
 
 ## 🔵 MEDIUM
 
