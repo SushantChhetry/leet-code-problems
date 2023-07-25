@@ -97,7 +97,17 @@ You can solve this problem using <strong> Hashmap </strong>.
   - else check if we have a value in the map that is equal to char T
     - this means that we already have the char mapped to something else, so return false
     - else add the char s key to char t value
-- return true     
+- return true
+
+### 242. Valid Anagram ✅ 
+(07/24/2023) <br/>
+- Check if the two string's lengths are equal, if not return false
+- Create a new map
+- Loop through s and create a key value pair in the map of each occurance of the char
+- Loop through t and check if there is a key in the map for t char
+  - if there is decreament it, check if the new value is less than 0, if yes return false
+  - if not return false
+- reurn true
 
 ## 🔵 MEDIUM
 
