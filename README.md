@@ -109,6 +109,14 @@ You can solve this problem using <strong> Hashmap </strong>.
   - if not return false
 - reurn true
 
+### 1. Two Sum  ✅ 
+(07/26/2023) <br/>
+- Create a new map
+- loop through the array
+  - if map does not have the element as key, add the target - element as the key and its index as the value
+  - check if there is an element in the map which has a different index value
+  - if it does then return the array of the index and the map's key value
+
 ## 🔵 MEDIUM
 
 ### Remove Duplicates from Sorted Array II ☑
