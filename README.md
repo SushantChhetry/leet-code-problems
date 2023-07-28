@@ -116,6 +116,16 @@ You can solve this problem using <strong> Hashmap </strong>.
   - if map does not have the element as key, add the target - element as the key and its index as the value
   - check if there is an element in the map which has a different index value
   - if it does then return the array of the index and the map's key value
+ 
+  ### 290. Word Pattern  ✅ 
+(07/27/2023) <br/>
+- Create a new maps
+- Split the string into an array of words
+- loop through the words
+  - Populate map1 with char as key and word as value if key not present in map1
+  - Populate map2 with word as key and char as value if key not present in map2
+  - If value is present return false accordingly
+- return true
 
 ## 🔵 MEDIUM
 
