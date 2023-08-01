@@ -140,6 +140,15 @@ You can solve this problem using <strong> Hashmap </strong>.
 
 ### 202. Happy Number Set✅ 
 (07/31/2023) <br/>
+- Create a new set to detect numbers we have seen and check for infinite looping conditions
+- loop while number is not 1 and number is not in the set
+  - add the number to the set
+  - loop while the mod by 10 of the number is not 0
+    - use mode by 10 to get the last digit
+    - sum the square of the digit
+    - remove the last digit by dividing it by 10 and flooring it
+  - assign the number the sum we created
+- return to check if number is equal to 1
 
 
 ## 🔵 MEDIUM
