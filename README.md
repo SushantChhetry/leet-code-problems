@@ -127,6 +127,21 @@ You can solve this problem using <strong> Hashmap </strong>.
   - If value is present return false accordingly
 - return true
 
+ ### 202. Happy Number Recursion✅ 
+(07/31/2023) <br/>
+- Base cases to check if the parameter is less than 4
+  -  If it is, check if it is 1, return boolean
+-  Loop while the mod by 10 of number is not 0
+  - Use mod by 10 to get the last digit
+  - Sum the square of the digit
+  - Remove the last digit by dividing it by 10 and flooring it
+- Recursive call
+
+
+### 202. Happy Number Set✅ 
+(07/31/2023) <br/>
+
+
 ## 🔵 MEDIUM
 
 ### Remove Duplicates from Sorted Array II ☑
