@@ -150,6 +150,19 @@ You can solve this problem using <strong> Hashmap </strong>.
   - assign the number the sum we created
 - return to check if number is equal to 1
 
+### 141. Linked List Cycle✅ 
+(07/31/2023) <br/>
+<strong> Hare and Turtoise Method </strong>
+- Create two pointers that will traverse the linked list
+- check if head and head.next is null to see if it contains no node or only one node, so not cyclic
+- The first pointer starts at the head
+- The second pointer starts at the head.next
+- While the first pointer is not equal to second pointer loop
+  - check if the second pointer is null or next of second pointer is null, to check for the end of list, if it is then return false because not cyclic
+  - move the first pointer one step (turtoise)
+  - move the second pointer two step (hare)
+- Return true when the loop ends   
+
 
 ## 🔵 MEDIUM
 
