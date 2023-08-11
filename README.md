@@ -163,7 +163,16 @@ You can solve this problem using <strong> Hashmap </strong>.
   - check if the second pointer is null or next of second pointer is null, to check for the end of list, if it is then return false because not cyclic
   - move the first pointer one step (turtoise)
   - move the second pointer two step (hare)
-- Return true when the loop ends   
+- Return true when the loop ends
+
+
+### 104. Maximum Depth of Binary Tree✅ 
+(08/10/2023) <br/>
+<strong> recursion </strong>
+- base case is to check if the node is null and if it is return 0
+- otherwise go to the left node and save it in a var
+- the go to the right node and save it in a var
+- at the end return the maximum between the left's depth vs right's depth + 1
 
 
 ## 🔵 MEDIUM
