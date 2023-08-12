@@ -174,6 +174,15 @@ You can solve this problem using <strong> Hashmap </strong>.
 - the go to the right node and save it in a var
 - at the end return the maximum between the left's depth vs right's depth + 1
 
+### 100. Same Tree✅
+- recursion
+- two base cases (one to check if both are null and other to check if either is null)
+- if both are null then we know move to other level and return true
+- if one of them null then not equal so we return null
+- then we check if the value of nodes are equal
+- if so then we do a recursive call on the lefts of both rooth and right of both roots
+- at last we return falses
+
 
 ## 🔵 MEDIUM
 
