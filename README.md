@@ -181,6 +181,14 @@ You can solve this problem using <strong> Hashmap </strong>.
 - if so then we do a recursive call on the lefts of both rooth and right of both roots
 - at last we return falses
 
+### 100. Same Tree✅
+- recursion
+- check if the node is null, return null
+- recursive call to the left node and save it to a var
+- recursive call to the right node and save it to a var
+-  switch the root's left and right using the above vars
+- return the root
+
 
 ## 🔵 MEDIUM
 
