@@ -188,6 +188,15 @@ You can solve this problem using <strong> Hashmap </strong>.
 - recursive call to the right node and save it to a var
 -  switch the root's left and right using the above vars
 - return the root
+  
+### 35. Search Insert Position✅
+- two var low and high
+- create a while loop while low is less than high
+- create a mid var to get mid index
+- check if the element in the mid is target: return mid
+- if mid low than traget, make low mid + 1
+- if mid high than traget, make high mid - 1
+- if exit loop, return the low 
 
 
 ## 🔵 MEDIUM
